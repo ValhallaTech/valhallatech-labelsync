@@ -35,10 +35,14 @@ labels: &common
     color: &enhancement
     description: An improvement to existing feature and code.
     alias: ["enhan"]
+   "kind/Infrastructure":
+    color: &enhancement
+    description: Change in the way the project is structured.
+    alias: ["infra"]
   "kind/question":
     color: &question
     description: A question.
-    alias: ["question"]
+    alias: ["quest"]
   "kind/wont-fix":
     color: &wont-fix
     description: This will not be fixed at this time or is intended functionality.
