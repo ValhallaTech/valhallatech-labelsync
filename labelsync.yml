@@ -6,7 +6,7 @@ colors:
   documentation: &documentation "#0075ca"
   duplicate: &duplicate "#cfd3d7"
   enhancement: &enhancement "#a2eeef"
-  enhancement: &infrastructure "#a2eeef"
+  infrastructure: &infrastructure "#a2eeef"
   question: &question '#d876e3'
   wont-fix: &wont-fix "#ffffff"
 
