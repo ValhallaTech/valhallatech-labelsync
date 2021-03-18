@@ -18,7 +18,7 @@ labels: &common
     alias: ["compress"]'kind/auto-compress-images':
     'kind/basic-functionality':
     color: &basic-functionality
-    description: Basic functionality
+    description: Basic functionality.
     alias: ["basic"]'kind/basic-functionality':
     'kind/bug':
     color: &bug
@@ -66,3 +66,4 @@ repos:
       removeUnconfiguredLabels: true
     labels:
       <<: *common
+      
