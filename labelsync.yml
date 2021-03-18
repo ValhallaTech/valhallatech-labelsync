@@ -6,6 +6,7 @@ colors:
   documentation: &documentation "#0075ca"
   duplicate: &duplicate "#cfd3d7"
   enhancement: &enhancement "#a2eeef"
+  enhancement: &infrastructure "#a2eeef"
   question: &question '#d876e3'
   wont-fix: &wont-fix "#ffffff"
 
@@ -36,7 +37,7 @@ labels: &common
     description: An improvement to existing feature and code.
     alias: ["enhan"]
   "kind/infrastructure":
-    color: &enhancement
+    color: &infrastructure
     description: Change in the way the project is structured.
     alias: ["infra"]
   "kind/question":
