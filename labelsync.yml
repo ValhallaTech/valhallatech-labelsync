@@ -55,20 +55,17 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
+   
   Heimdall-TicketTracker:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
+
   PortfolioPage_FS3:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
+
