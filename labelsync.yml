@@ -35,7 +35,7 @@ labels: &common
     color: &enhancement
     description: An improvement to existing feature and code.
     alias: ["enhan"]
-   "kind/Infrastructure":
+   "kind/infrastructure":
     color: &enhancement
     description: Change in the way the project is structured.
     alias: ["infra"]
