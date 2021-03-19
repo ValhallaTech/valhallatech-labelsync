@@ -42,7 +42,7 @@ labels: &common
 
 # Repositories
 repos:
-  PortfolioPage_FS3:
+  "*":
     config:
       removeUnconfiguredLabels: false
     labels:
