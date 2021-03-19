@@ -1,14 +1,6 @@
-# Repositories
-repos:
-  "*":
-    config:
-      removeUnconfiguredLabels: false
-    labels:
-      <<: *common
-      # Add labels here.
-
 # Colors
 colors:
+  kind: &kind "#3B5BDB"
   auto-compress-images: &auto-compress-images '#c8ff54'
   basic-functionality: &basic-functionality '#fbca04'
   bug: &bug '#d73a4a'
@@ -48,3 +40,12 @@ labels: &common
   'kind/wont-fix':
     color: &wont-fix
     description: This will not be fixed at this time or is intended functionality
+
+# Repositories
+repos:
+  PortfolioPage_FS3:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      <<: *common
+      # Add labels here.
