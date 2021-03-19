@@ -46,6 +46,5 @@ repos:
     config:
       removeUnconfiguredLabels: false
     labels:
-      {}
-      # <<: *common
+      <<: *common
       # Add labels here.
