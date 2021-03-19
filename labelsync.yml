@@ -1,15 +1,15 @@
 # Colors
 colors:
   kind: &kind "#3B5BDB"
-  auto-compress-images: &auto-compress-images '#c8ff54'
-  basic-functionality: &basic-functionality '#fbca04'
-  bug: &bug '#d73a4a'
-  documentation: &documentation '#0075ca'
-  duplicate: &duplicate '#cfd3d7'
-  enhancement: &enhancement '#a2eeef'
-  infrastructure: &infrastructure '#a2eeef'
-  question: &question '#d876e3'
-  wont-fix: &wont-fix '#ffffff'
+  auto-compress-images: &auto-compress-images "#c8ff54"
+  basic-functionality: &basic-functionality "#fbca04"
+  bug: &bug "#d73a4a"
+  documentation: &documentation "#0075ca"
+  duplicate: &duplicate "#cfd3d7"
+  enhancement: &enhancement "#a2eeef"
+  infrastructure: &infrastructure "#a2eeef"
+  question: &question "#d876e3"
+  wont-fix: &wont-fix "#ffffff"
 
 # Repositories
 repos:
@@ -17,31 +17,31 @@ repos:
     config:
       removeUnconfiguredLabels: false
     labels:
-      'kind/auto-compress-images':
+      kind/auto-compress-images:
         color: &auto-compress-images
         description: Automatic image compressing bot
-      'kind/basic-functionality':
+      kind/basic-functionality:
         color: &basic-functionality
         description: Basic functionality
-      'kind/bug':
+      kind/bug:
         color: &bug
         description: A reported bug
-      'kind/documentation':
+      kind/documentation:
         color: &documentation
         description: Additional or updated documentation
-      'kind/duplicate':
+      kind/duplicate:
         color: &duplicate
         description: Duplicate ticket
-      'kind/enhancement':
+      kind/enhancement:
         color: &enhancement
         description: An improvement to existing feature and code
-      'kind/infrastructure':
+      kind/infrastructure:
         color: &infrastructure
         description: Change in the way the project is structured
-      'kind/question':
+      kind/question:
         color: &question
         description: A question
-      'kind/wont-fix':
+      kind/wont-fix:
         color: &wont-fix
         description: This will not be fixed at this time or is intended functionality      
       
