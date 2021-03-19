@@ -44,7 +44,7 @@ labels: &common
 repos:
   PortfolioPage_FS3:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       {}
       # <<: *common
