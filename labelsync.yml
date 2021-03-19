@@ -11,41 +11,37 @@ colors:
   question: &question '#d876e3'
   wont-fix: &wont-fix '#ffffff'
 
-# Labels
-labels: &common
-  'kind/auto-compress-images':
-    color: &auto-compress-images
-    description: Automatic image compressing bot
-  'kind/basic-functionality':
-    color: &basic-functionality
-    description: Basic functionality
-  'kind/bug':
-    color: &bug
-    description: A reported bug
-  'kind/documentation':
-    color: &documentation
-    description: Additional or updated documentation
-  'kind/duplicate':
-    color: &duplicate
-    description: Duplicate ticket
-  'kind/enhancement':
-    color: &enhancement
-    description: An improvement to existing feature and code
-  'kind/infrastructure':
-    color: &infrastructure
-    description: Change in the way the project is structured
-  'kind/question':
-    color: &question
-    description: A question
-  'kind/wont-fix':
-    color: &wont-fix
-    description: This will not be fixed at this time or is intended functionality
-
 # Repositories
 repos:
   PortfolioPage_FS3:
     config:
       removeUnconfiguredLabels: false
     labels:
-      <<: *common
-      # Add labels here.
+      'kind/auto-compress-images':
+        color: &auto-compress-images
+        description: Automatic image compressing bot
+      'kind/basic-functionality':
+        color: &basic-functionality
+        description: Basic functionality
+      'kind/bug':
+        color: &bug
+        description: A reported bug
+      'kind/documentation':
+        color: &documentation
+        description: Additional or updated documentation
+      'kind/duplicate':
+        color: &duplicate
+        description: Duplicate ticket
+      'kind/enhancement':
+        color: &enhancement
+        description: An improvement to existing feature and code
+      'kind/infrastructure':
+        color: &infrastructure
+        description: Change in the way the project is structured
+      'kind/question':
+        color: &question
+        description: A question
+      'kind/wont-fix':
+        color: &wont-fix
+        description: This will not be fixed at this time or is intended functionality      
+      
