@@ -2,33 +2,33 @@
 repos:
   PortfolioPage_FS3:
     config:
-      removeUnconfiguredLabels: false
+      removeUnconfiguredLabels: true
     labels:
-      kind/auto-compress-images:
+      auto-compress-images:
         color: "#c8ff54"
         description: Automatic image compressing bot
-      kind/basic-functionality:
+      basic-functionality:
         color: "#fbca04"
         description: Basic functionality
-      kind/bug:
+      bug:
         color: "#d73a4a"
         description: A reported bug
-      kind/documentation:
+      documentation:
         color: "#0075ca"
         description: Additional or updated documentation
-      kind/duplicate:
+      duplicate:
         color: "#cfd3d7"
         description: Duplicate ticket
-      kind/enhancement:
+      enhancement:
         color: "#a2eeef"
         description: An improvement to existing feature and code
-      kind/infrastructure:
+      infrastructure:
         color: "#a2eeef"
         description: Change in the way the project is structured
-      kind/question:
+      question:
         color: "#d876e3"
         description: A question
-      kind/wont-fix:
+      wont-fix:
         color: "#ffffff"
         description: This will not be fixed at this time or is intended functionality      
       
