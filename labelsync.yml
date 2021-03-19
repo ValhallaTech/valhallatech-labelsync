@@ -1,3 +1,12 @@
+# Repositories
+repos:
+  "*":
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      <<: *common
+      # Add labels here.
+
 # Colors
 colors:
   auto-compress-images: &auto-compress-images '#c8ff54'
@@ -39,12 +48,3 @@ labels: &common
   'kind/wont-fix':
     color: &wont-fix
     description: This will not be fixed at this time or is intended functionality
-
-# Repositories
-repos:
-  "*":
-    config:
-      removeUnconfiguredLabels: false
-    labels:
-      <<: *common
-      # Add labels here.
